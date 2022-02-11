@@ -15,3 +15,10 @@ btn.addEventListener("click", function() {
         video.play();
     }
 });
+
+// preloader
+const preloder = document.querySelector(".preloader");
+
+window.addEventListener("load", function() {
+    preloder.classList.add("hide-preloader");
+})
